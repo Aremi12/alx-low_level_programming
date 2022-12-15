@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet_x10 - a function that prints 10 times the alphabet
- * Return; x10 a-z
+ * Return: x10 a-z
  */
 void print_alphabet_x10(void)
 {
@@ -10,11 +10,11 @@ void print_alphabet_x10(void)
 
 	co = 0;
 
-	while (c0 < 10)
+	while (co < 10)
 	{
 		for (n = 'a'; n <= 'z'; n++)
 		{
-			_putchar(n)
+			_putchar(n);
 		}
 		co++;
 		_putchar('\n');
