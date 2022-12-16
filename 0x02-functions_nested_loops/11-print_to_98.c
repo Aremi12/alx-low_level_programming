@@ -6,7 +6,7 @@
  * @n: number input
  * Return: Always 0
  */
-void prints_to_98(int n)
+void print_to_98(int n)
 {
 	if (n < 98)
 	{
@@ -18,7 +18,6 @@ void prints_to_98(int n)
 				printf(", ");
 			}
 			n++;
-
 		}
 	}
 	else if (n > 98)
