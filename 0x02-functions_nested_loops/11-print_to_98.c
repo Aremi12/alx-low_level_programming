@@ -1,8 +1,7 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
- * prints_to_98 - Entry point
+ * print_to_98 - Entry point
  * user input's number prints to 98, regardless < 98 or > 98
  * @n: number input
  * Return: Always 0
