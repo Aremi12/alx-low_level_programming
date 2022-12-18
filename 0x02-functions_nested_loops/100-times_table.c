@@ -2,7 +2,7 @@
 /**
  * print_times_table - Multiplication table
  * @n: input
- * Return: Always 0
+ * Return:  Number matrix
  */
 void print_times_table(int n)
 {
